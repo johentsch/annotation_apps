@@ -113,6 +113,16 @@
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>0</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>5</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -137,6 +147,16 @@
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>1</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>6</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -163,6 +183,16 @@
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>2</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>7</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -190,6 +220,16 @@
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>8</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -212,6 +252,8 @@
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -304,6 +346,10 @@
             <autoplace>0</autoplace>
             <offset x="0" y="7"/>
             </Dynamic>
+          <Harmony>
+            <name>I.b</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -830,6 +876,10 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <name>II.a</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -1811,6 +1861,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>I.G</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -2238,6 +2292,10 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <name>II.a</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -2596,6 +2654,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>I.b</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -3263,6 +3325,10 @@
             <autoplace>0</autoplace>
             <offset x="0" y="7"/>
             </Dynamic>
+          <Harmony>
+            <name>I.e</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -3950,6 +4016,10 @@
             <offset x="0" y="4"/>
             <text><font size="12"></font><font face="Times New Roman"></font>bis:</text>
             </StaffText>
+          <Harmony>
+            <name>II.e</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -4529,6 +4599,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>I.f#</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -4989,6 +5063,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>I.D</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -6672,6 +6750,10 @@
             <autoplace>0</autoplace>
             <offset x="0" y="7"/>
             </Dynamic>
+          <Harmony>
+            <name>I.b</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -7171,6 +7253,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>I.b/a</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -7801,6 +7887,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>I.b</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -7887,6 +7977,10 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <name>II.b</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -9541,6 +9635,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <name>II.a</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -9995,6 +10093,10 @@
             <autoplace>0</autoplace>
             <offset x="0" y="7"/>
             </Dynamic>
+          <Harmony>
+            <name>I.e</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -10395,6 +10497,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>I.e</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -11239,6 +11345,10 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <name>II.e</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -12043,6 +12153,10 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Harmony>
+            <name>II.a</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -12525,6 +12639,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>I.e</name>
+            <bold>1</bold>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
