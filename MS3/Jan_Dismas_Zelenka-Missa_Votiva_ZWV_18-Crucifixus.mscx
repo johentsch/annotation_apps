@@ -113,6 +113,16 @@
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>0</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>10</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -137,6 +147,16 @@
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>1</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>8</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -163,6 +183,16 @@
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>2</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>7</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -190,6 +220,16 @@
           <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>6</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -212,6 +252,16 @@
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>5</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -304,6 +354,9 @@
             <autoplace>0</autoplace>
             <offset x="0" y="7"/>
             </Dynamic>
+          <Harmony>
+            <name>I.b</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -3263,6 +3316,9 @@
             <autoplace>0</autoplace>
             <offset x="0" y="7"/>
             </Dynamic>
+          <Harmony>
+            <name>I.e</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -6672,6 +6728,9 @@
             <autoplace>0</autoplace>
             <offset x="0" y="7"/>
             </Dynamic>
+          <Harmony>
+            <name>I.b</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -9993,15 +10052,17 @@
             <subtype>f</subtype>
             <velocity>90</velocity>
             <autoplace>0</autoplace>
-            <offset x="0" y="7"/>
+            <offset x="-1.72873" y="7.11525"/>
             </Dynamic>
+          <Harmony>
+            <name>I.e</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
               <text>Cru</text>
               </Lyrics>
-            <StemDirection>down</StemDirection>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -13216,6 +13277,9 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
