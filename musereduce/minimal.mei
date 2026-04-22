@@ -1,0 +1,207 @@
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei meiversion="5.0.0-dev" xmlns="http://www.music-encoding.org/ns/mei">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+        <respStmt>
+          <persName role="composer" xml:id="composer" xmlns=""></persName>
+          <persName role="analyst" xml:id="analyst" xmlns=""></persName>
+          <persName role="annotator" xml:id="annotator" xmlns=""></persName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <date isodate="2022-05-26" type="encoding-date">2022-05-26</date>
+      </pubStmt>
+    </fileDesc>
+    <encodingDesc xml:id="encodingdesc-y5atp9">
+      <appInfo xml:id="appinfo-2h3wz5">
+        <application isodate="2022-05-26T09:59:49" version="3.9.0-3c1560c" xml:id="application-2b07xy">
+          <name xml:id="name-94sva5">Verovio</name>
+          <p xml:id="p-6i37p8">Transcoded from MusicXML</p>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv xml:id="mnc0a44">
+        <score xml:id="srndjrp">
+          <scoreDef xml:id="sg68kc6">
+            <staffGrp xml:id="suzedh0">
+              <staffGrp bar.thru="true" xml:id="P1">
+                <label xml:id="lk2ieb7">Piano</label>
+                <labelAbbr xml:id="lobbogu">Pno.</labelAbbr>
+                <instrDef midi.channel="0" midi.instrnum="0" midi.volume="78.00%" xml:id="iu98wkm"></instrDef>
+                <staffDef lines="5" n="1" ppq="1" xml:id="sbece04">
+                  <clef line="2" shape="G" xml:id="c2s87cw"></clef>
+                  <keySig sig="0" xml:id="k5pyeoy"></keySig>
+                  <meterSig count="2" unit="4" xml:id="m6t3e12"></meterSig>
+                </staffDef>
+                <staffDef lines="5" n="2" ppq="1" xml:id="s95wiej">
+                  <clef line="4" shape="F" xml:id="c82ctl0"></clef>
+                  <keySig sig="0" xml:id="kt65c6d"></keySig>
+                  <meterSig count="2" unit="4" xml:id="mltp77"></meterSig>
+                </staffDef>
+                <grpSym symbol="brace" xml:id="g1uw5tu"></grpSym>
+              </staffGrp>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="s3uu6hd">
+            <measure n="1" xml:id="m44a5lu">
+              <staff n="1" xml:id="s6mdv4s">
+                <layer n="1" xml:id="l3f49zs">
+                  <note dur="4" dur.ppq="1" oct="5" pname="e" stem.dir="up" xml:id="ndbdle1"></note>
+                  <note dur="4" dur.ppq="1" oct="5" pname="f" stem.dir="up" xml:id="ng02q4k"></note>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="skcyjzr">
+                <layer n="5" xml:id="ld08ie2">
+                  <mSpace xml:id="mgexdcf"></mSpace>
+                </layer>
+                <layer n="6" xml:id="ll220ka">
+                  <note dur="4" dur.ppq="1" oct="3" pname="c" stem.dir="down" xml:id="nfbyegi"></note>
+                  <note dur="4" dur.ppq="1" oct="3" pname="f" stem.dir="down" xml:id="nonl2l3"></note>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="2" xml:id="mhhsi2f">
+              <staff n="1" xml:id="sc9amio">
+                <layer n="1" xml:id="lg0yi78">
+                  <note dur="4" dur.ppq="1" oct="5" pname="e" stem.dir="up" xml:id="n3tejou"></note>
+                  <note dur="4" dur.ppq="1" oct="5" pname="d" stem.dir="up" xml:id="nv5nz2x"></note>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="suwf0od">
+                <layer n="5" xml:id="lqvxxt3">
+                  <mSpace xml:id="mbepps1"></mSpace>
+                </layer>
+                <layer n="6" xml:id="lrmv5fz">
+                  <note dur="2" dur.ppq="2" oct="3" pname="g" stem.dir="down" xml:id="nvwjn2n"></note>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="3" right="end" xml:id="mjmtblx">
+              <staff n="1" xml:id="sswzsbe">
+                <layer n="1" xml:id="lf62zsg">
+                  <note dur="2" dur.ppq="2" oct="5" pname="c" stem.dir="up" xml:id="nr94dvk"></note>
+                </layer>
+              </staff>
+              <staff n="2" xml:id="so2xaua">
+                <layer n="5" xml:id="lvq7lz5">
+                  <mSpace xml:id="mo5qnjw"></mSpace>
+                </layer>
+                <layer n="6" xml:id="l876dsz">
+                  <note dur="2" dur.ppq="2" oct="3" pname="c" stem.dir="down" xml:id="ntxyk4g"></note>
+                </layer>
+              </staff>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+      <graph type="directed" xmlns="">
+        <node xml:id="gn-ndbdle1" xmlns="">
+          <label xmlns="">
+            <note corresp="#ndbdle1" xmlns=""></note>
+          </label>
+        </node>
+        <node xml:id="gn-ng02q4k" xmlns="">
+          <label xmlns="">
+            <note corresp="#ng02q4k" xmlns=""></note>
+          </label>
+        </node>
+        <node type="relation" xml:id="he-aa7e9" xmlns="">
+          <label type="neighbour" xmlns=""></label>
+        </node>
+        <arc from="#he-aa7e9" to="#gn-ndbdle1" type="primary" xmlns=""></arc>
+        <arc from="#he-aa7e9" to="#gn-ng02q4k" type="secondary" xmlns=""></arc>
+        <node xml:id="gn-nv5nz2x" xmlns="">
+          <label xmlns="">
+            <note corresp="#nv5nz2x" xmlns=""></note>
+          </label>
+        </node>
+        <node xml:id="gn-n3tejou" xmlns="">
+          <label xmlns="">
+            <note corresp="#n3tejou" xmlns=""></note>
+          </label>
+        </node>
+        <node type="relation" xml:id="he-d5a39" xmlns="">
+          <label type="passing" xmlns=""></label>
+        </node>
+        <arc from="#he-d5a39" to="#gn-ng02q4k" type="primary" xmlns=""></arc>
+        <arc from="#he-d5a39" to="#gn-nv5nz2x" type="primary" xmlns=""></arc>
+        <arc from="#he-d5a39" to="#gn-n3tejou" type="secondary" xmlns=""></arc>
+        <node type="relation" xml:id="he-9e24f" xmlns="">
+          <label type="arpeggio" xmlns=""></label>
+        </node>
+        <arc from="#he-9e24f" to="#gn-nv5nz2x" type="primary" xmlns=""></arc>
+        <arc from="#he-9e24f" to="#gn-ng02q4k" type="secondary" xmlns=""></arc>
+        <node xml:id="gn-nr94dvk" xmlns="">
+          <label xmlns="">
+            <note corresp="#nr94dvk" xmlns=""></note>
+          </label>
+        </node>
+        <node type="relation" xml:id="he-dddbb" xmlns="">
+          <label type="passing" xmlns=""></label>
+        </node>
+        <arc from="#he-dddbb" to="#gn-ndbdle1" type="primary" xmlns=""></arc>
+        <arc from="#he-dddbb" to="#gn-nr94dvk" type="primary" xmlns=""></arc>
+        <arc from="#he-dddbb" to="#gn-nv5nz2x" type="secondary" xmlns=""></arc>
+        <node type="relation" xml:id="he-89b2" xmlns="">
+          <label type="arpeggio" xmlns=""></label>
+        </node>
+        <arc from="#he-89b2" to="#gn-ndbdle1" type="primary" xmlns=""></arc>
+        <arc from="#he-89b2" to="#gn-nr94dvk" type="secondary" xmlns=""></arc>
+        <node xml:id="gn-nfbyegi" xmlns="">
+          <label xmlns="">
+            <note corresp="#nfbyegi" xmlns=""></note>
+          </label>
+        </node>
+        <node xml:id="gn-ntxyk4g" xmlns="">
+          <label xmlns="">
+            <note corresp="#ntxyk4g" xmlns=""></note>
+          </label>
+        </node>
+        <node type="relation" xml:id="he-2f1d8" xmlns="">
+          <label type="repeat" xmlns=""></label>
+        </node>
+        <arc from="#he-2f1d8" to="#gn-nfbyegi" type="primary" xmlns=""></arc>
+        <arc from="#he-2f1d8" to="#gn-ntxyk4g" type="secondary" xmlns=""></arc>
+        <node xml:id="gn-nonl2l3" xmlns="">
+          <label xmlns="">
+            <note corresp="#nonl2l3" xmlns=""></note>
+          </label>
+        </node>
+        <node type="relation" xml:id="he-759b0" xmlns="">
+          <label type="arpeggio" xmlns=""></label>
+        </node>
+        <arc from="#he-759b0" to="#gn-nfbyegi" type="primary" xmlns=""></arc>
+        <arc from="#he-759b0" to="#gn-nonl2l3" type="secondary" xmlns=""></arc>
+        <node xml:id="gn-nvwjn2n" xmlns="">
+          <label xmlns="">
+            <note corresp="#nvwjn2n" xmlns=""></note>
+          </label>
+        </node>
+        <node type="relation" xml:id="he-8e3c7" xmlns="">
+          <label type="neighbour" xmlns=""></label>
+        </node>
+        <arc from="#he-8e3c7" to="#gn-nvwjn2n" type="primary" xmlns=""></arc>
+        <arc from="#he-8e3c7" to="#gn-nonl2l3" type="secondary" xmlns=""></arc>
+        <node type="relation" xml:id="he-1d385" xmlns="">
+          <label type="arpeggio" xmlns=""></label>
+        </node>
+        <arc from="#he-1d385" to="#gn-ntxyk4g" type="primary" xmlns=""></arc>
+        <arc from="#he-1d385" to="#gn-nvwjn2n" type="secondary" xmlns=""></arc>
+        <node type="relation" xml:id="he-2ff55" xmlns="">
+          <label type="harmonic" xmlns=""></label>
+        </node>
+        <arc from="#he-2ff55" to="#gn-nvwjn2n" type="secondary" xmlns=""></arc>
+        <arc from="#he-2ff55" to="#gn-nv5nz2x" type="secondary" xmlns=""></arc>
+        <node type="relation" xml:id="he-273c6" xmlns="">
+          <label type="harmonic" xmlns=""></label>
+        </node>
+        <arc from="#he-273c6" to="#gn-nonl2l3" type="secondary" xmlns=""></arc>
+        <arc from="#he-273c6" to="#gn-ng02q4k" type="secondary" xmlns=""></arc>
+      </graph>
+    </body>
+  </music>
+</mei>
