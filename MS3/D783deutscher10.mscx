@@ -1246,12 +1246,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <placement>below</placement>
-            <family>FreeSerif</family>
-            <offset x="0" y="13.6888"/>
-            <text><font size="10"></font><font face="Times New Roman"></font>Klav.</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -1391,7 +1385,7 @@
           <StaffText>
             <placement>below</placement>
             <family>FreeSerif</family>
-            <offset x="0" y="13.6058"/>
+            <offset x="0" y="4.05889"/>
             <text><font size="10"></font><font face="Times New Roman"></font><i>decresc.</i></text>
             </StaffText>
           <Chord>
@@ -1437,12 +1431,6 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <placement>below</placement>
-            <family>FreeSerif</family>
-            <offset x="0" y="13.8708"/>
-            <text><font size="10"></font><font face="Times New Roman"></font>Klav.</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
