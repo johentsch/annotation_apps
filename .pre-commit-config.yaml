@@ -3,4 +3,5 @@ repos:
     rev: v2.6.0
     hooks:
     -   id: review
-        args: [-M, -N, -C, -X, -F, -D, -c LATEST_VERSION, --fail]
+        args: [-M, -N, -C, -X, -F, -D, -c, LATEST_VERSION, --fail]
+        additional_dependencies: ["pandas<3"]
